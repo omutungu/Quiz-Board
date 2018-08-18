@@ -13,7 +13,7 @@ The application is about Quiz-Board which contains questions.
  * HTML
  * Atom
 ## Support and contact details
-  for more info call +254706906082        
+  for more info call +254706906082   https://1zx.github.io/Quiz-Board/     
 ## License
 MIT License
 
