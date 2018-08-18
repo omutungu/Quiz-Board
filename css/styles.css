@@ -1,12 +1,49 @@
 body {
-  background-color: powderblue;
+   font-family: 'Lato', sans-serif;
+   /*background-image: url("../../Quiz-Board/image/good.jpeg");*/
+   background-repeat: no-repeat;
+   height: 900px;
+   width: 1800px;
+   background-position: center;
+   background-size: cover;
+ }
+#quiz {
+ margin-left: 10px;
+ background: grey;
+ padding: 10px 20px 10px 20px;
+ border-radius: 20px;
+ float: left;
 }
-h1 {
-  color: blue;
-  font-family: verdana;
-  font-size: 300%;
-  text-align: center;
+
+input {
+ margin-bottom: 20px;
 }
-p {
-  color: red;
+
+#button {
+ background: green;
+ border: none;
+ border-radius: 5px;
+ padding: 10px;
+ color: white;
+ font-size: 16px;
+ transition-duration: .5s;
+ margin-top: 15px;
+}
+
+#button:hover {
+ background: white;
+ border: 1px solid green;
+ color: black;
+ cursor: pointer;
+}
+
+#after_submit {
+ visibility: black;
+ background: blue;
+ padding: 10px 20px 10px 20px;
+ width: 400px;
+ border-radius: 20px;
+ float: left;
+ margin-left: 20px;
+ font-size: 30px;
 }

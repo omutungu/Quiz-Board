@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html>
- <head>
-   <link rel="stylesheet" href="css/bootstrap.js">
-   <link href="css/styles.css" rel="stylesheet" type="text/css">
-   <script src="js/scripts.js"></script>
-   <script src="js/jquery-3.3.1.js"></script>
-   <title>Moringa School</title>
- </head>
-   <body>
-     <div class="container">
-     <h1>QUIZ BOARD</h1>
- <form id="quiz" name="quiz"></form>
-<ol>
- <p>1.Which of the following is a programming language?</p>
-  <input type="radio" id="mc" name="question1" value="JAVASCRIPT">JAVASCRIPT<br>
-  <input type="radio" id="mc" name="question1" value="HTML">HTML<br>
-  <input type="radio" id="mc" name="question1" value="CSS">CSS<br>
+<head>
+ <title>Quiz Board</title>
+ <link href="css/styles.css" rel="stylesheet">
+ <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
+ <script src="js/scripts.js"></script>
+ <img src="image/good.jpeg" alt="A photo of a image">
+</head>
 
+<body>
+ <h1>QUIZ BOARD</h1>
+ <form id="quiz" name="quiz">
 
- <p>2.What is the other name for Javascript</p>
+ <p>Which of the following is a programming language?</p>
+     <input type="radio" id="mc" name="question1" value="JAVASCRIPT">JAVASCRIPT<br>
+     <input type="radio" id="mc" name="question1" value="HTML">HTML<br>
+     <input type="radio" id="mc" name="question1" value="CSS">CSS<br>
+
+ <P>What is the other name for Javascript</p>
    <input type="radio" id="mc" name="question2" value="ECMAscript">ECMAscript<br>
    <input type="radio" id="mc" name="question2" value="JS">JS<br>
    <input type="radio" id="mc" name="question2" value="I dont know">I dont know<br>
 
-  <p>3.In which year was Javascript introduced into the world?</p>
-   <input type="radio" id="mc" name="question3" value="1995">1995<br>
-   <input type="radio" id="mc" name="question3" value="2000">2000<br>
-   <input type="radio" id="mc" name="question3" value="1900">1900<br>
+ <p>Is C++ a low level language?</p>
+   <input type="radio" id="mc" name="question3" value="Yes">Yes<br>
+   <input type="radio" id="mc" name="question3" value="No">No<br>
 
-  <p>4.What should appear at very end of your JavaScript?</p>
-  <input type="radio" id="mc" name="question4" value="</script>">/script><br>
-  <input type="radio" id="mc" name="question4" value="<script>"><.script><br>
-  <input type="radio" id="mc" name="question4" value="<head>"><.head><br>
+   <input id="button" type="button" value="Submit" onclick="check()">
+ </form>
 
-  <p>5.What is the use of JavaScript?</p>
-  <input type="radio" id="mc" name="question5" value="scripting language">scripting language<br>
-  <input type="radio" id="mc" name="question5" value="for custom level">for custom level<br>
-  <input type="radio" id="mc" name="question5" value="internet options">internet option<br>
+ <div id="after_submit">
 
-  <p>6.Which documentation and reference is used to look more into JavaScript?</p>
-  <input type="radio" id="mc" name="question6" value="CSS">CSS<br>
-  <input type="radio" id="mc" name="question6" value="MDN">MDN<br>
-  <input type="radio" id="mc" name="question6" value="HTML">HTML<br>
-  <input id="button" type="button" value="Submit" onclick="check();">
-<div class="container">
-   </body>
+   <p id="message"><p/>
+   <p id="number_correct"></p>
+ </div>
+
+</body>
 </html>
