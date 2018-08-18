@@ -2,7 +2,7 @@
 {This project is about of quiz,18/8/2018}
 By Charles Gateru
 ## {Description}
-The application is Quiz-Board.it contains questions.
+The application is about Quiz-Board which contains questions.
 ## Setup/Installation Requirements
 * The use of atom used as an editor
 * Making use of chrome so as to JavaScript
