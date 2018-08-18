@@ -1,8 +1,8 @@
 # {Quiz-Board}
-####{This project is about of quiz,18/8/2018}
+{This project is about of quiz,18/8/2018}
 By Charles Gateru
 ## {Description}
-{The application is Quiz-Board.it contains questions.
+The application is Quiz-Board.it contains questions.
 ## Setup/Installation Requirements
 * The use of atom used as an editor
 * Making use of chrome so as to JavaScript
